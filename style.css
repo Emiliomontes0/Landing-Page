@@ -1,14 +1,16 @@
 .flex-container{
+    display: flex;
+    flex-direction: column;
     height: auto;
-    width: auto;
-    background-color: rgb(0,150,255);
+    background-color: rgb(0, 0, 40)
 }
 .flex-container div{
     border: 0px #ccc solid;
-    padding: 0px;
+    padding: 0px 0px 0;
 }
 ul{
     list-style: none;
+    color: white;
     font-size: 20px;
     display: flex;
     gap: 8px;
@@ -18,22 +20,129 @@ ul{
 }
 .head-desc{
     display: flex;
-    justify-content: space-between;
+    height: auto;
+    width: auto;
+    margin: 0px 60px 0px;
+    gap: 60px;
     align-items: center;
-    padding: 10px;
+    text-align: left;
+    color: black;
 }
+.website{
+
+    font-size: 20px;
+}
+.website-desc{
+    margin-top: -10px;
+}    
 .desc{
-    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+    text-align: left;
+    justify-content: left;
 }
 .title{
     display: flex;
     justify-content:space-between;
+    padding: 0px;
+    margin: 10px 60px 0px;
 
 }
 .title-name{
     display: flex;
     font-size: 20px;
+    color: white;
 }
 button{
+    background-color: blue;
+    border-radius: 9px;
+    margin: 0px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 10px;
+    color: white;
+}
+.header-button{
+    display: flex;
+    align-self:flex-start;
+}
+.body-container{
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 0px;
+}.body-header{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.body-images{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    border: 3px blue solid;
+    border-radius: 10px;
+}
+.images-description{
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-box{
+    display: flex;
+    background-color: #ccc;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+}
+.quote{
+    display: flex;
+    padding: 60px;
+    font-size: 20px;
+}
+.bottom-container{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 0px;
+    background-color: white ;
+}
+.bottom-text{
+    display: flex;
+    background-color:rgb(0, 100, 255);
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+    color:  darkgrey;
 
+}
+.bottom-button{
+    margin: 10px;
+    border-color:  black;
+    border: 10px;
+}
+.copy-box{
+    background: darkblue;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.copyright{
+    color: white;
+    font-size: 10px;
 }
